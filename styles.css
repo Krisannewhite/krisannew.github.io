@@ -1,0 +1,130 @@
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+/* .item4 { grid-area: right; }
+.item5 { grid-area: footer; } */
+
+body{
+  font-family: arial;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'menu main main main main main';
+  grid-gap: 5px;
+  background-color: white;
+  padding: 5px;
+}
+
+.item1{
+  color: white;
+  background-color: green;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 20px;
+}
+
+.item2{
+  background-color: white;
+  text-align: left;
+  padding: 20px 0;
+  font-size: 20px;
+  width:300px;
+  margin-left: 100px;
+}
+
+.item3{
+  background-color: white;
+  text-align: left;
+  padding: 20px 0;
+  font-size: 20px;
+  width: 800px;
+}
+
+.flex-containercolumn{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-containercolumn2{
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+  margin: auto;
+  width: 900px;
+  border: solid;
+  border-color: white;
+}
+
+.flex-containercolumn3{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-containercolumn4{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-containercolumn5{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-containercolumn6{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-containercolumn7{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-containercolumn8{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-containercolumn9{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-containercolumn10{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-containerrow1{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-containerrow2{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-containerrow3{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-containerrow4{
+  display: flex;
+  flex-direction: row;
+}
+
+.profile{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	border-radius: 85px;
+}
+
+/*img{
+  float: left;
+}*/
